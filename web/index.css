@@ -1,0 +1,22 @@
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair+Display+SC&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.d1:hover .d11{
+  display: block;
+}
+
+.d2:hover .d21{
+  display: block;
+}
+
+.d3:hover .d31{
+  display: block;
+}
+
+.d4:hover .d41{
+  display: block;
+}
