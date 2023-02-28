@@ -572,23 +572,23 @@
     <div class="ml-32">
       <div>
         <input type="text" placeholder="First Name"
-          class="placeholder-black font-head text-2xl placeholder:bg-transparent border-2 border-[#04282D4D] my-2 h-14 w-full p-4">
+          class="placeholder-black font-head text-2xl placeholder:bg-transparent border-2 border-[#04282D4D] my-2 h-14 w-full p-4 bg-transparent">
       </div>
 
       <div>
         <input type="text" placeholder="Last Name"
-          class="border-2 border-[#04282D4D] my-2 h-14 w-full p-4 placeholder-black font-head text-2xl">
+          class="border-2 border-[#04282D4D] my-2 h-14 w-full p-4 placeholder-black font-head text-2xl bg-transparent">
       </div>
 
       <div>
         <input type="text" placeholder="Email"
-          class="border-2 border-[#04282D4D] my-2 h-14 w-full p-4 placeholder-black font-head text-2xl">
+          class="border-2 border-[#04282D4D] my-2 h-14 w-full p-4 placeholder-black font-head text-2xl bg-transparent">
       </div>
 
       <div>
         <label for="textarea" class="text-2xl font-head">Comments</label>
         <textarea type="textarea"
-          class="placeholder-transparent::placeholder w-full h-20 border-2 border-[#04282D4D]"></textarea>
+          class="placeholder-transparent::placeholder w-full h-20 border-2 border-[#04282D4D] bg-transparent"></textarea>
       </div>
 
       <div class="my-4 text-3xl font-head border-2 border-[#04282D4D] p-2 w-32 text-center">
@@ -601,7 +601,19 @@
         Upload File
       </div>
 
-      <div class="border-dashed border-4 border-[#04282D4D] h-[290px] mx-5"></div>
+      <div class="border-dashed border-4 border-[#04282D4D] h-[290px] mx-5 relative">
+        <div class="border-2 border-[#04282D4D] text-center w-28 absolute left-1/2 top-44">
+          Browse File
+        </div>
+        <div class="font-head text-2xl top-1/2 absolute left-[490px]">
+          or
+        </div>
+        <div class="font-head left-[420px] absolute top-[120px]">
+          DROP YOUR FILES HERE
+        </div>
+
+        <div class="text-3xl"><em class="fa fa-cloud-upload absolute left-[490px] top-[90px]" aria-hidden="true"></em></div>
+      </div>
     </div>
   </div>
 
@@ -615,7 +627,7 @@
         <div class="rounded-t-lg border border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800 my-2">
           <h2 class="mb-0" id="headingOne">
             <button
-              class="group relative flex w-full items-center rounded-t-[15px] border-0 py-4 px-5 text-left text-base bg-transparent text-white"
+              class="group relative flex w-full items-center rounded-t-[15px] border-0 py-4 px-5 text-left text-base bg-transparent"
               type="button" data-te-collapse-init data-te-target="#collapseOne" aria-expanded="true"
               aria-controls="collapseOne">
               Lorem ipsum dolor sit amet
@@ -630,7 +642,7 @@
           </h2>
           <div id="collapseOne" class="!visible" data-te-collapse-item data-te-collapse-show
             aria-labelledby="headingOne" data-te-parent="#accordionExample">
-            <div class="py-4 px-5 text-white">
+            <div class="py-4 px-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
           </div>
@@ -638,7 +650,7 @@
         <div class="border border-t-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800 my-2">
           <h2 class="mb-0" id="headingTwo">
             <button
-              class="group relative flex w-full items-center rounded-t-[15px] border-0 py-4 px-5 text-left text-base bg-transparent text-white"
+              class="group relative flex w-full items-center rounded-t-[15px] border-0 py-4 px-5 text-left text-base bg-transparent"
               type="button" data-te-collapse-init data-te-collapse-collapsed data-te-target="#collapseTwo"
               aria-expanded="false" aria-controls="collapseTwo">
               Lorem ipsum dolor sit amet
@@ -653,7 +665,7 @@
           </h2>
           <div id="collapseTwo" class="!visible hidden" data-te-collapse-item aria-labelledby="headingTwo"
             data-te-parent="#accordionExample">
-            <div class="py-4 px-5 text-white">
+            <div class="py-4 px-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
           </div>
@@ -662,7 +674,7 @@
           class="rounded-b-lg border border-t-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
           <h2 class="accordion-header mb-0" id="headingThree">
             <button
-              class="group relative flex w-full items-center rounded-t-[15px] border-0 py-4 px-5 text-left text-base bg-transparent text-white"
+              class="group relative flex w-full items-center rounded-t-[15px] border-0 py-4 px-5 text-left text-base bg-transparent"
               type="button" data-te-collapse-init data-te-collapse-collapsed data-te-target="#collapseThree"
               aria-expanded="false" aria-controls="collapseThree">
               Lorem ipsum dolor sit amet
@@ -677,7 +689,7 @@
           </h2>
           <div id="collapseThree" class="!visible hidden" data-te-collapse-item aria-labelledby="headingThree"
             data-te-parent="#accordionExample">
-            <div class="py-4 px-5 text-white">
+            <div class="py-4 px-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
           </div>
